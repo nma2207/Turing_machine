@@ -1,0 +1,50 @@
+D:\ЯП\курсач\курсач\bin\Debug\курсач.exe.config
+D:\ЯП\курсач\курсач\obj\Debug\курсач.csprojResolveAssemblyReference.cache
+D:\ЯП\курсач\курсач\obj\Debug\курсач.Form1.resources
+D:\ЯП\курсач\курсач\obj\Debug\курсач.Properties.Resources.resources
+D:\ЯП\курсач\курсач\obj\Debug\курсач.csproj.GenerateResource.Cache
+D:\ЯП\курсач\курсач\bin\Debug\курсач.exe
+D:\ЯП\курсач\курсач\bin\Debug\курсач.pdb
+D:\ЯП\курсач\курсач\obj\Debug\курсач.exe
+D:\ЯП\курсач\курсач\obj\Debug\курсач.pdb
+D:\курсач\курсач\курсач\bin\Debug\курсач.exe.config
+D:\курсач\курсач\курсач\obj\Debug\курсач.exe
+D:\курсач\курсач\курсач\obj\Debug\курсач.pdb
+D:\курсач\курсач\курсач\obj\Debug\курсач.csprojResolveAssemblyReference.cache
+D:\курсач\курсач\курсач\obj\Debug\курсач.Form1.resources
+D:\курсач\курсач\курсач\obj\Debug\курсач.Properties.Resources.resources
+D:\курсач\курсач\курсач\obj\Debug\курсач.csproj.GenerateResource.Cache
+D:\курсач\курсач\курсач\bin\Debug\курсач.exe
+D:\курсач\курсач\курсач\bin\Debug\курсач.pdb
+D:\курсач\курсач\курсач\obj\Debug\курсач.Form2.resources
+D:\курсач\курсач\курсач\obj\Debug\курсач.Save.resources
+D:\курсач\курсач\курсач\obj\Debug\курсач.Open.resources
+D:\курсач\курсач\курсач\bin\Debug\курсач.exe.manifest
+D:\курсач\курсач\курсач\bin\Debug\курсач.application
+D:\курсач\курсач\курсач\obj\Debug\курсач.exe.manifest
+D:\курсач\курсач\курсач\obj\Debug\курсач.application
+D:\курсач\курсач\курсач\obj\Debug\курсач.Speed.resources
+D:\курсач\курсач\курсач\obj\Debug\курсач.Load_tapes.resources
+D:\телэсэ нэрсэ\курсач\курсач\курсач\bin\Debug\курсач.exe.config
+D:\телэсэ нэрсэ\курсач\курсач\курсач\obj\Debug\курсач.exe
+D:\телэсэ нэрсэ\курсач\курсач\курсач\obj\Debug\курсач.pdb
+D:\телэсэ нэрсэ\курсач\курсач\курсач\bin\Debug\курсач.exe.manifest
+D:\телэсэ нэрсэ\курсач\курсач\курсач\bin\Debug\курсач.application
+D:\телэсэ нэрсэ\курсач\курсач\курсач\bin\Debug\курсач.exe
+D:\телэсэ нэрсэ\курсач\курсач\курсач\bin\Debug\курсач.pdb
+D:\телэсэ нэрсэ\курсач\курсач\курсач\obj\Debug\курсач.csprojResolveAssemblyReference.cache
+D:\телэсэ нэрсэ\курсач\курсач\курсач\obj\Debug\курсач.Form1.resources
+D:\телэсэ нэрсэ\курсач\курсач\курсач\obj\Debug\курсач.Form2.resources
+D:\телэсэ нэрсэ\курсач\курсач\курсач\obj\Debug\курсач.Load_tapes.resources
+D:\телэсэ нэрсэ\курсач\курсач\курсач\obj\Debug\курсач.Open.resources
+D:\телэсэ нэрсэ\курсач\курсач\курсач\obj\Debug\курсач.Properties.Resources.resources
+D:\телэсэ нэрсэ\курсач\курсач\курсач\obj\Debug\курсач.Save.resources
+D:\телэсэ нэрсэ\курсач\курсач\курсач\obj\Debug\курсач.Speed.resources
+D:\телэсэ нэрсэ\курсач\курсач\курсач\obj\Debug\курсач.Stop.resources
+D:\телэсэ нэрсэ\курсач\курсач\курсач\obj\Debug\курсач.csproj.GenerateResource.Cache
+D:\телэсэ нэрсэ\курсач\курсач\курсач\obj\Debug\курсач.exe.manifest
+D:\телэсэ нэрсэ\курсач\курсач\курсач\obj\Debug\курсач.application
+D:\курсач\курсач\курсач\obj\Debug\курсач.Notification.resources
+D:\курсач\курсач\курсач\obj\Debug\курсач.ConditionsTree.resources
+D:\курсач\курсач\курсач\obj\Debug\курсач.Wegcs.resources
+D:\курсач\курсач\курсач\obj\Debug\курсач.Step.resources

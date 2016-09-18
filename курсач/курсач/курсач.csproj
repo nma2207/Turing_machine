@@ -1,0 +1,332 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{36B972BB-BC80-47B6-A86A-F12F74FB6548}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>курсач</RootNamespace>
+    <AssemblyName>курсач</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>D:\телэсэ нэрсэ\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <AutorunEnabled>true</AutorunEnabled>
+    <ApplicationRevision>4</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>D0E532940315190863142A4D1F268306D2A84541</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>курсач_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Win32Resource>
+    </Win32Resource>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Messaging" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ConditionsTree.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConditionsTree.Designer.cs">
+      <DependentUpon>ConditionsTree.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Decision_tree.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Librarycs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Load_tapes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Load_tapes.Designer.cs">
+      <DependentUpon>Load_tapes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Notification.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Notification.Designer.cs">
+      <DependentUpon>Notification.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Open.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Open.Designer.cs">
+      <DependentUpon>Open.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Save.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Save.Designer.cs">
+      <DependentUpon>Save.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Speed.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Speed.Designer.cs">
+      <DependentUpon>Speed.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Step.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Step.Designer.cs">
+      <DependentUpon>Step.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tape.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TapeTree.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Wegcs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Wegcs.Designer.cs">
+      <DependentUpon>Wegcs.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="ConditionsTree.resx">
+      <DependentUpon>ConditionsTree.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Load_tapes.resx">
+      <DependentUpon>Load_tapes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Notification.resx">
+      <DependentUpon>Notification.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Open.resx">
+      <DependentUpon>Open.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Save.resx">
+      <DependentUpon>Save.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Speed.resx">
+      <DependentUpon>Speed.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Step.resx">
+      <DependentUpon>Step.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wegcs.resx">
+      <DependentUpon>Wegcs.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="курсач_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\mt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\toleft.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\torirght.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\toright.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\arrow.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\arrow.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\turing.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 и x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>Клиентский профиль .NET Framework 3.5 с пакетом обновления 1 %28SP1%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\library\123\Tapes\0.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\library\123\abc.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\library\123\comments.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\library\123\protocol.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\library\123\task.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\instruction.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\library\ADD\abc.txt" />
+    <Content Include="bin\Debug\library\ADD\comments.txt" />
+    <Content Include="bin\Debug\library\ADD\protocol.txt" />
+    <Content Include="bin\Debug\library\ADD\Tapes\0.txt" />
+    <Content Include="bin\Debug\library\ADD\task.txt" />
+    <Content Include="bin\Debug\library\bubble-sort\abc.txt" />
+    <Content Include="bin\Debug\library\bubble-sort\comments.txt" />
+    <Content Include="bin\Debug\library\bubble-sort\protocol.txt" />
+    <Content Include="bin\Debug\library\bubble-sort\Tapes\0.txt" />
+    <Content Include="bin\Debug\library\bubble-sort\task.txt" />
+    <Content Include="bin\Debug\library\first_no_det\abc.txt" />
+    <Content Include="bin\Debug\library\first_no_det\comments.txt" />
+    <Content Include="bin\Debug\library\first_no_det\protocol.txt" />
+    <Content Include="bin\Debug\library\first_no_det\Tapes\0.txt" />
+    <Content Include="bin\Debug\library\first_no_det\task.txt" />
+    <Content Include="bin\Debug\library\minus_one\abc.txt" />
+    <Content Include="bin\Debug\library\minus_one\comments.txt" />
+    <Content Include="bin\Debug\library\minus_one\protocol.txt" />
+    <Content Include="bin\Debug\library\minus_one\Tapes\0.txt" />
+    <Content Include="bin\Debug\library\minus_one\Tapes\1.txt" />
+    <Content Include="bin\Debug\library\minus_one\Tapes\2.txt" />
+    <Content Include="bin\Debug\library\minus_one\Tapes\3.txt" />
+    <Content Include="bin\Debug\library\minus_one\Tapes\4.txt" />
+    <Content Include="bin\Debug\library\minus_one\task.txt" />
+    <Content Include="bin\Debug\library\name\abc.txt" />
+    <Content Include="bin\Debug\library\name\comments.txt" />
+    <Content Include="bin\Debug\library\name\protocol.txt" />
+    <Content Include="bin\Debug\library\name\Tapes\0.txt" />
+    <Content Include="bin\Debug\library\name\Tapes\1.txt" />
+    <Content Include="bin\Debug\library\name\task.txt" />
+    <Content Include="bin\Debug\library\no_det\abc.txt" />
+    <Content Include="bin\Debug\library\no_det\comments.txt" />
+    <Content Include="bin\Debug\library\no_det\protocol.txt" />
+    <Content Include="bin\Debug\library\no_det\Tapes\0.txt" />
+    <Content Include="bin\Debug\library\no_det\task.txt" />
+    <Content Include="bin\Debug\library\plus_one\abc.txt" />
+    <Content Include="bin\Debug\library\plus_one\comments.txt" />
+    <Content Include="bin\Debug\library\plus_one\protocol.txt" />
+    <Content Include="bin\Debug\library\plus_one\Tapes\0.txt" />
+    <Content Include="bin\Debug\library\plus_one\Tapes\1.txt" />
+    <Content Include="bin\Debug\library\plus_one\Tapes\2.txt" />
+    <Content Include="bin\Debug\library\plus_one\task.txt" />
+    <Content Include="bin\Debug\library\reverse\abc.txt" />
+    <Content Include="bin\Debug\library\reverse\comments.txt" />
+    <Content Include="bin\Debug\library\reverse\protocol.txt" />
+    <Content Include="bin\Debug\library\reverse\Tapes\0.txt" />
+    <Content Include="bin\Debug\library\reverse\task.txt" />
+    <Content Include="bin\Debug\library\sort\abc.txt" />
+    <Content Include="bin\Debug\library\sort\comments.txt" />
+    <Content Include="bin\Debug\library\sort\protocol.txt" />
+    <Content Include="bin\Debug\library\sort\Tapes\0.txt" />
+    <Content Include="bin\Debug\library\sort\task.txt" />
+    <Content Include="bin\Debug\library\test\abc.txt" />
+    <Content Include="bin\Debug\library\test\comments.txt" />
+    <Content Include="bin\Debug\library\test\protocol.txt" />
+    <Content Include="bin\Debug\library\test\Tapes\0.txt" />
+    <Content Include="bin\Debug\library\test\task.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

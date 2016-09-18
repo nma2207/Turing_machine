@@ -1,0 +1,578 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="курсач.exe" version="1.0.0.4" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="курсач" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="курсач.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Параметры манифеста UAC
+          При необходимости изменить уровень управления учетными записями Windows замените 
+          узел requestedExecutionLevel одним из следующих значений.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+        Если вы хотите использовать виртуализацию файлов и реестра для обратной
+             совместимости, удалите узел requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="курсач.exe" size="598528">
+      <assemblyIdentity name="курсач" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>TCe2eYXSJQuCbzRrt1wuU7O8RG1G/gQZfYYHU7zIEW4=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="bin\Debug\library\ADD\abc.txt" size="12">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>73sYPE8GzBmbyW+pLYXgO9Xl1uRqQlbUK6jn0UwT6iE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\Debug\library\ADD\comments.txt" size="73">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>BJ6jfYx1P/m2+PR50Xwl4AxucgGG2Pm2X9tj/fpDVBQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\Debug\library\ADD\protocol.txt" size="296">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>qfRzpl3hSBMenGR9hO34/8lqOECu0F0Hc+lR8dVnfn4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\Debug\library\ADD\Tapes\0.txt" size="216">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>iTyWsaH1iTq8xSN1VI/sj0kJBswX5Lg0ahxn0s8l8v0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\Debug\library\ADD\task.txt" size="139">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>iSuTpIRHQS/wtwKfUaD52zl5erLJGFcsCmp+eWVOknU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\Debug\library\bubble-sort\abc.txt" size="4">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ZNiHMczbb5J84LguD90vdnCLS47J6uXEv9OEedxbUbM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\Debug\library\bubble-sort\comments.txt" size="24">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>WAnDmhgOgFJN6kPfIkW5dV8xw9eCLwYT15WlD9ksn/c=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\Debug\library\bubble-sort\protocol.txt" size="319">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>SzgT0EzTAnCHY+KyLZ/2apnE8gS2VsRjLojLwWZbJ0w=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\Debug\library\bubble-sort\Tapes\0.txt" size="70">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>PUlT3K8FPMtxTCDsNQkwyAhkFPmpXccuG08PEAdlo9g=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\Debug\library\bubble-sort\task.txt" size="55">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>oNeYif1hRiIjNPkWjFkYStp+tI2Y9UL/ItfkKRK3u5w=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\Debug\library\first_no_det\abc.txt" size="4">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ZNiHMczbb5J84LguD90vdnCLS47J6uXEv9OEedxbUbM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\Debug\library\first_no_det\comments.txt" size="24">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>WAnDmhgOgFJN6kPfIkW5dV8xw9eCLwYT15WlD9ksn/c=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\Debug\library\first_no_det\protocol.txt" size="51">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Ep4CfFC6ASFjEDIuScCAr1C0kMG/OWAuF38WMoJ9BhA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\Debug\library\first_no_det\Tapes\0.txt" size="71">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>w0K8aSjslo3JSFaYhGAnPRMQGNXOZTmZuONzgO7M6+4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\Debug\library\first_no_det\task.txt" size="2">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN/XKdLCPjaYaY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\Debug\library\minus_one\abc.txt" size="12">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>bJ3FetmzvviOpXtFS7Z4JG1d5nSLcRxx+rrvevVTkUc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\Debug\library\minus_one\comments.txt" size="23">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>seueKCPiS3xT6PYAIQxsYKq9ONs1CrOQzzVHISjHuYs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\Debug\library\minus_one\protocol.txt" size="654">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>7VHSIBfCXt2S8UjczWasOnNJ/RZPiDnQCB+43Hmb1ew=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\Debug\library\minus_one\Tapes\0.txt" size="71">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>2+tDX2S8H695BcwW9TpcS0Z4SZDA/FaC0fXFOrXC7cU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\Debug\library\minus_one\Tapes\1.txt" size="72">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>mc+2ZApInhwJTY+0QoYtXm3CW9Wlv4AtBiCMqUfI+TQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\Debug\library\minus_one\Tapes\2.txt" size="71">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>2+tDX2S8H695BcwW9TpcS0Z4SZDA/FaC0fXFOrXC7cU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\Debug\library\minus_one\Tapes\3.txt" size="71">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>2+tDX2S8H695BcwW9TpcS0Z4SZDA/FaC0fXFOrXC7cU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\Debug\library\minus_one\Tapes\4.txt" size="71">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>2+tDX2S8H695BcwW9TpcS0Z4SZDA/FaC0fXFOrXC7cU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\Debug\library\minus_one\task.txt" size="2">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN/XKdLCPjaYaY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\Debug\library\name\abc.txt" size="4">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ZNiHMczbb5J84LguD90vdnCLS47J6uXEv9OEedxbUbM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\Debug\library\name\comments.txt" size="24">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>WAnDmhgOgFJN6kPfIkW5dV8xw9eCLwYT15WlD9ksn/c=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\Debug\library\name\protocol.txt" size="5">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>s9C6K+1X3H58Yi0y5Vg8ywWNUKj/cAOvATEAN8CAtxg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\Debug\library\name\Tapes\0.txt" size="71">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>71edpF2ZxabDu2pxA2Hg5qZ7uUU+2Y8tRioj9YNey7k=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\Debug\library\name\Tapes\1.txt" size="71">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>71edpF2ZxabDu2pxA2Hg5qZ7uUU+2Y8tRioj9YNey7k=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\Debug\library\name\task.txt" size="2">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN/XKdLCPjaYaY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\Debug\library\no_det\abc.txt" size="4">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ZNiHMczbb5J84LguD90vdnCLS47J6uXEv9OEedxbUbM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\Debug\library\no_det\comments.txt" size="23">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>seueKCPiS3xT6PYAIQxsYKq9ONs1CrOQzzVHISjHuYs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\Debug\library\no_det\protocol.txt" size="65">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>6WalKO7JQySVbEOh1hCszgfpiL1NEpL4oSsv9UHcg2o=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\Debug\library\no_det\Tapes\0.txt" size="71">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>71edpF2ZxabDu2pxA2Hg5qZ7uUU+2Y8tRioj9YNey7k=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\Debug\library\no_det\task.txt" size="2">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN/XKdLCPjaYaY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\Debug\library\plus_one\abc.txt" size="14">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>sA0GU0SedwFNVcgxZDCHtWNp63NbFMYAwJ3ig6UMZpM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\Debug\library\plus_one\comments.txt" size="24">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>WAnDmhgOgFJN6kPfIkW5dV8xw9eCLwYT15WlD9ksn/c=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\Debug\library\plus_one\protocol.txt" size="519">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>eiJCN/aBgqBslb/SMvqhWvGT8Z0I/sVSgpg8jcQ9Vjg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\Debug\library\plus_one\Tapes\0.txt" size="71">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>9M9eiNtA2v8PVv4MpEfc7JJn9YppEkC2G9oM107Xs+s=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\Debug\library\plus_one\Tapes\1.txt" size="71">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>EiBWySaQ1GV/3TcwVnIb+0/lCq988Rvx9Q2S8yMJtH8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\Debug\library\plus_one\Tapes\2.txt" size="72">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>TXBfdZ05cFc31jz4HqrejZ5i0THDePNeJz+KvUeLedQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\Debug\library\plus_one\task.txt" size="4">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>26UWatnbm6ZIwQMuu9NNzQ0IW1ACO4Oe9caModuTpWM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\Debug\library\reverse\abc.txt" size="4">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ZNiHMczbb5J84LguD90vdnCLS47J6uXEv9OEedxbUbM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\Debug\library\reverse\comments.txt" size="24">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>WAnDmhgOgFJN6kPfIkW5dV8xw9eCLwYT15WlD9ksn/c=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\Debug\library\reverse\protocol.txt" size="51">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ouTVu8sHm89R4rgDakuiL/qVentDHjRrNaJDUOL7ptM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\Debug\library\reverse\Tapes\0.txt" size="71">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Zl0/mL/KrMndTQZeKAJCU2mQMm8Rfu+jajhq9T0Uv/0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\Debug\library\reverse\task.txt" size="2">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN/XKdLCPjaYaY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\Debug\library\sort\abc.txt" size="6">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>x1ctSa5mWU+dgOl4KJGhXNtshn/qCgzir+cKRZ5qsdM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\Debug\library\sort\comments.txt" size="364">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>zGUH0XSPCv2qc1gmPttrme9VLCOLYaOfrW0QkQwhaCU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\Debug\library\sort\protocol.txt" size="402">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>F/ZmlN/QqaIFbF/42vgfYcJ87bxaF38kqVaLKG2Gmuc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\Debug\library\sort\Tapes\0.txt" size="137">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>wUF2965C0g1dQyI0mibO7AaioJm08CMSv69Q7mfTvpQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\Debug\library\sort\task.txt" size="93">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>sRT62osLWaDVoN70Pmo+faLJHkD0nNzkkK0Xoroa3YI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\Debug\library\test\abc.txt" size="4">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ZNiHMczbb5J84LguD90vdnCLS47J6uXEv9OEedxbUbM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\Debug\library\test\comments.txt" size="24">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>WAnDmhgOgFJN6kPfIkW5dV8xw9eCLwYT15WlD9ksn/c=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\Debug\library\test\protocol.txt" size="21">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>oEWMNzhEYhgkYrxkH8S9ykb4rnT0mN8bOuXVfsKEMjQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\Debug\library\test\Tapes\0.txt" size="71">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>w0K8aSjslo3JSFaYhGAnPRMQGNXOZTmZuONzgO7M6+4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\Debug\library\test\task.txt" size="2">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN/XKdLCPjaYaY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="курсач.exe.config" size="187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xm4bo26HQ0LNVwz1vdPYtzhkpMnp2AI5i+f0b+OahTI=</dsig:DigestValue>
+    </hash>
+  </file>
+</asmv1:assembly>
